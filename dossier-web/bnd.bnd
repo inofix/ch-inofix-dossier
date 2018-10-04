@@ -1,0 +1,4 @@
+Bundle-Name: dossier-web
+Bundle-SymbolicName: ch.inofix.dossier
+Bundle-Version: 1.0.0
+Export-Package: ch.inofix.dossier.constants
