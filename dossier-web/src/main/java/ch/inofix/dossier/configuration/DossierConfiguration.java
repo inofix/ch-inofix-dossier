@@ -11,8 +11,8 @@ import aQute.bnd.annotation.metatype.Meta;
 )
 public interface DossierConfiguration {
 
-    @Meta.AD(deflt = "true", required = true)
-    public long includeParentScope();
+    @Meta.AD(deflt = "true", required = false)
+    public boolean doIncludeParentScope();
 
     @Meta.AD(deflt = "0", required = false)
     public long rootVocabularyId();

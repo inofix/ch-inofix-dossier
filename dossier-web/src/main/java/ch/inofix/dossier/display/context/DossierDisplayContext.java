@@ -8,7 +8,7 @@ public class DossierDisplayContext {
 /*
     public DossierDisplayContext(HttpServletRequest request)
                                     throws ConfigurationException {
-        
+
     }
 */
 }
