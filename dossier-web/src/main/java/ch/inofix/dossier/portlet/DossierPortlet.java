@@ -1,6 +1,6 @@
 package ch.inofix.dossier.portlet;
 
-import ch.inofix.dossier.constants.DossierWebPortletKeys;
+import ch.inofix.dossier.constants.DossierPortletKeys;
 
 import com.liferay.portal.kernel.portlet.bridges.mvc.MVCPortlet;
 
@@ -19,11 +19,11 @@ import org.osgi.service.component.annotations.Component;
 		"javax.portlet.display-name=dossier-web Portlet",
 		"javax.portlet.init-param.template-path=/",
 		"javax.portlet.init-param.view-template=/view.jsp",
-		"javax.portlet.name=" + DossierWebPortletKeys.DossierWeb,
+		"javax.portlet.name=" + DossierPortletKeys.DOSSIER,
 		"javax.portlet.resource-bundle=content.Language",
 		"javax.portlet.security-role-ref=power-user,user"
 	},
 	service = Portlet.class
 )
-public class DossierWebPortlet extends MVCPortlet {
+public class DossierPortlet extends MVCPortlet {
 }

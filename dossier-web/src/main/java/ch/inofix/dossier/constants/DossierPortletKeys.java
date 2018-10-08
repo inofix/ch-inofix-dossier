@@ -3,8 +3,8 @@ package ch.inofix.dossier.constants;
 /**
  * @author mic
  */
-public class DossierWebPortletKeys {
+public class DossierPortletKeys {
 
-	public static final String DossierWeb = "DossierWeb";
+	public static final String DOSSIER = "Dossier of Journal Articles and Related Assets";
 
 }
