@@ -1,4 +1,7 @@
 {
     "name": "dossier-web",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "devDependencies": {
+        "liferay-npm-bundler": "^2.5.0"
+    }
 }
